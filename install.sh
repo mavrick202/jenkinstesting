@@ -1,7 +1,14 @@
 #!/bin/bash
 sudo apt install -y tree
-sudo mkdir /tmp/folder
-sudo touch /tmp/folder/testfile1
-sudo touch /tmp/folder/testfile2
-sudo touch /tmp/folder/testfile3
-sudo tree /tmp/folder
+rm -rf /tmp/folder
+echo echo $(date) >> /tmp/folder/file1
+sleep 2s
+echo echo $(date) >> /tmp/folder/file1
+sleep 2s
+echo echo $(date) >> /tmp/folder/file1
+sleep 2s
+echo echo $(date) >> /tmp/folder/file1
+sleep 2s
+echo echo $(date) >> /tmp/folder/file1
+sleep 2s
+echo echo $(date) >> /tmp/folder/file1
