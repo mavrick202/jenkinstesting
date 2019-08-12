@@ -1,7 +1,7 @@
 #!/bin/bash
-apt install -y tree
-mkdir /tmp/folder
-touch /tmp/folder/testfile1
-touch /tmp/folder/testfile2
-touch /tmp/folder/testfile3
-tree /tmp/folder
+sudo apt install -y tree
+sudo mkdir /tmp/folder
+sudo touch /tmp/folder/testfile1
+sudo touch /tmp/folder/testfile2
+sudo touch /tmp/folder/testfile3
+sudo tree /tmp/folder
